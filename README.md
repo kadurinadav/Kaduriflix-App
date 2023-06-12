@@ -133,14 +133,14 @@ Install latest version of npm
 
 **Add movie to "my List"**
 
-![](./public/images/addToFavorite.png)
+![](./public/images/addToFavorites.png)
 
 1. When you hover over a movie poster in the home page, in one of the genre pages or in the search page, a "+" button will be displayed. In order to add the movie to my List, click on that button.
 2. Now this movie will be displayed when you will go to My List page through the "My List" button on the navbar.
 
 **Remove movie from "my List"**
 
-![](./public/images/removeFromFavorite.png)
+![](./public/images/removeFromFavorites.png)
 
 1. When you hover over a movie poster in the home page, in one of the genre pages or in the search page, a "-" button will be displayed if this movie is already in "My List". In order to remove the movie from my List, click on that button.
 2. Now this movie will not be displayed anymore in "My List" page.
