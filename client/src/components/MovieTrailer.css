@@ -1,0 +1,106 @@
+.trailer-window {
+  width: 800px;
+  height: 60vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: #141414;
+  padding: 30px;
+  padding-top: 40px;
+  color: white;
+}
+
+.trailer-title{
+  position: absolute;
+  top: -5%;
+}
+.trailer-overview {
+  position: absolute;
+  padding-top: 340px;
+  color: white;
+  width: 60%;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.trailer-year {
+  position: absolute;
+  top: 1%;
+  color: grey;
+  margin: 0;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.trailer-genres {
+  position: absolute;
+  padding-top: 440px;
+  font-weight: 400;
+  width: 30%;
+  right: 10px;
+}
+
+.trailer-genres-title {
+  color: grey;
+  font-weight: 600;
+}
+
+.trailer-cast {
+  position: absolute;
+  padding-top: 330px;
+  font-weight: 400;
+  width: 30%;
+  right: 10px;
+}
+
+.trailer-cast-title {
+  color: grey;
+  font-weight: 600;
+}
+
+.x-button {
+  position: absolute;
+  top: -8%;
+  right: 8px;
+  background: rgb(20, 20, 20);
+  border: none;
+  cursor: pointer;
+}
+
+.x-button:hover {
+  background: rgb(196, 8, 8);
+}
+
+.close-icon {
+  font-size: 20px;
+  color: white;
+}
+
+.youtube-trailer{
+  position:absolute;
+  left: 0;
+  top: -10%;
+}
+
+.youtube-trailer::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 13rem;
+  background-color: #141414;
+}
+
+.youtube-trailer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10rem;
+  background-color: #141414;
+}

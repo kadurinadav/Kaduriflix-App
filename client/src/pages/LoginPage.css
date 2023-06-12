@@ -1,0 +1,21 @@
+
+.login-page {
+    background-image:  url(../assets/background.jpg);
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.kaduriflix-big-logo {
+    position: absolute;
+    top: 20px; 
+    left: 40px;
+    height: 60px;
+  }
+
+.error-message {
+    background-color: rgb(218, 123, 0);
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}

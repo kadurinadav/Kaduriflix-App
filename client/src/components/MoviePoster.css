@@ -1,0 +1,102 @@
+.movie-poster {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.movie-poster img {
+  object-fit: contain;
+  max-height: 300px;
+  transition: transform 450ms;
+}
+
+.movie-poster img:hover {
+  transform: scale(1.1);
+}
+
+.movie-poster:hover .movie-info,
+.movie-poster:hover img {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.1);
+}
+
+.movie-info {
+  position: absolute;
+  bottom: -4%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms, visibility 200ms;
+  overflow: hidden;
+}
+
+.movie-title {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+  max-width: 90%;
+}
+
+.movie-genres {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genre-dot {
+  margin: 0 5px;
+  color: white;
+}
+
+.favorite-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.favorite-buttons button {
+  background-color: black;
+  color: white;
+  font-size: large;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
+  transition: transform 450ms;
+  position: relative;
+}
+
+.favorite-buttons button::after {
+  content: attr(tooltip);
+  position: absolute;
+  bottom: -25px;
+  right: 50%;
+  background-color: black;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms, visibility 200ms;
+}
+
+.favorite-buttons button:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.favorite-buttons button:hover {
+  transform: scale(1.1);
+}

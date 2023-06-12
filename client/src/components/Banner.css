@@ -1,0 +1,89 @@
+.banner {
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 76vh;
+}
+
+.banner-content {
+  position: relative;
+  padding-top: 360px;
+  height: 110px;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.banner-title {
+  font-size: 60px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  max-width: 40%;
+  text-shadow: 1px 1px 1px black;
+  padding-left: 30px;
+}
+
+.play-button,
+.info-button {
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.45rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2vw;
+}
+
+.play-button {
+  background-color: #fff;
+  color: #141414;
+  margin-left: 2rem;
+}
+
+.info-button {
+  background-color: rgba(51, 51, 51, 0.5);
+  color: white;
+  margin-left: 1rem;
+}
+
+.play-button:hover {
+  background-color: rgb(214, 214, 214);
+  transition: all 0.2s;
+}
+
+.info-button:hover {
+  background: #69696996;
+  transition: all 0.2s;
+}
+
+.banner-fade {
+  position: relative;
+  height: 15.2rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 0, 0, 0.2),
+    rgb(0, 0, 0, 1)
+  );
+  z-index: 0;
+}
+
+.youtube-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: -20%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.trailer-container.muted .youtube-container {
+  height: 60vh; 
+}
+
+.trailer-container.muted .banner {
+  height: 50vh; 
+  transition: height 0.9s ease; 
+}
