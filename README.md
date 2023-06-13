@@ -56,10 +56,10 @@ Install latest version of npm
    ```sh
    cd server
   ```
-2. Navigate to the server folder:
+4. Create database at MongoDB and add the uri to .env file
    ```sh
-   cd server
-  ```
+   DATABASE_URI=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/DATABASE_NAME 
+   ```
 3. Create .env file in server directory.
 4. Create database at MongoDB and add the uri to .env file
    ```sh
