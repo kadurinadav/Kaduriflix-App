@@ -55,15 +55,11 @@ Install latest version of npm
 1. Navigate to the server folder:
    ```sh
    cd server
-  ```
-2. install npm packages:
-   ```sh
-   npm install
-  ```
+   ```
 2. Install NPM packages:
    ```sh
    npm install
-  ```
+   ```
 3. Create .env file in server directory.
 4. Create database at MongoDB and add the uri to .env file
    ```sh
