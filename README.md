@@ -52,7 +52,8 @@ Install latest version of npm
 2. Go to project directory and run the client and the server as instructed below. 
 
 #### server side
-1. Navigate to the server folder:
+1.
+2. Navigate to the server folder:
    ```sh
    cd server
   ```
