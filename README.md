@@ -52,10 +52,13 @@ Install latest version of npm
 2. Go to project directory and run the client and the server as instructed below. 
 
 #### server side
-1.
-2. Navigate to the server folder:
+1. Navigate to the server folder:
    ```sh
    cd server
+  ```
+2. install NPM packages:
+   ```sh
+   npm install
   ```
 2. Install NPM packages:
    ```sh
