@@ -58,8 +58,8 @@ Install latest version of npm
   ```
 2. Install NPM packages:
    ```sh
-     npm install
-   ```
+   npm install
+  ```
 3. Create .env file in server directory.
 4. Create database at MongoDB and add the uri to .env file
    ```sh
@@ -81,8 +81,8 @@ Install latest version of npm
   ```
 2. Install NPM packages:
    ```sh
-     npm install
-   ```
+   npm install
+  ```
 3. Create .env file in client directory.
 4. Request an API key from TMDB and add it to your .env
    ```sh
