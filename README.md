@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">Kaduriflix: A Netflix Clone</h1>
-<img src="./public/images/kaduriflix-preview.gif"/>
+<img src="./images/kaduriflix-preview.gif"/>
   <p align="center">
     My implementation of Netflix using React.js, Node.js and MongoDB. Movie data was pulled from TMDB and trailer videos from Youtube.
     <br /><br />
@@ -97,7 +97,7 @@ Install latest version of npm
 
 **Creating an Account**
 
-![](./public/images/signup.png)
+![](./images/signup.png)
 
 1. Go to Sign Up page.
    - From the Sign In page, click the 'Sign up now' link below 'Sign In' button.
@@ -107,7 +107,7 @@ Install latest version of npm
 
 **Log In**
 
-![](./public/images/signin.png)
+![](./images/signin.png)
 
 1. Go to Sign In page.
    - if you just started the app you will already be in the Sign in page.
@@ -116,7 +116,7 @@ Install latest version of npm
 
 **Searching for a movie**
 
-![](./public/images/search.png)
+![](./images/search.png)
 
 1. Click the search input on the navabr.
 2. Input your search term and press the " enter.
@@ -125,7 +125,7 @@ Install latest version of npm
 
 **Play Trailer for a movie**
 
-![](./public/images/playTrailer.png)
+![](./images/playTrailer.png)
 
 1. Click the movie poster that you want to play is trailer.
 2. A trailer window will open with the trailer video in addition to movie details and overview.
@@ -133,14 +133,14 @@ Install latest version of npm
 
 **Add movie to "my List"**
 
-![](./public/images/addToFavorites.png)
+![](./images/addToFavorites.png)
 
 1. When you hover over a movie poster in the home page, in one of the genre pages or in the search page, a "+" button will be displayed. In order to add the movie to my List, click on that button.
 2. Now this movie will be displayed when you will go to My List page through the "My List" button on the navbar.
 
 **Remove movie from "my List"**
 
-![](./public/images/removeFromFavorites.png)
+![](./images/removeFromFavorites.png)
 
 1. When you hover over a movie poster in the home page, in one of the genre pages or in the search page, a "-" button will be displayed if this movie is already in "My List". In order to remove the movie from my List, click on that button.
 2. Now this movie will not be displayed anymore in "My List" page.
@@ -148,7 +148,7 @@ Install latest version of npm
 
 **Log Out**
 
-![](./public/images/logOut.png)
+![](./images/logOut.png)
 
 1. In order to log out from the user click on the blue icon on the right side of the navbar.
 
