@@ -56,7 +56,7 @@ Install latest version of npm
    ```sh
    cd server
   ```
-2. install NPM packages:
+2. install npm packages:
    ```sh
    npm install
   ```
