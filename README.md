@@ -25,6 +25,8 @@
 
 ## About The Project
 
+This Project is my implementation of Netflix app. On that app, you can create a user, watch movie trailers of all genres, search for a specific movie trialer and maintain a favorite movies list by adding or removing movies according to your preference. 
+
 ### Built With
 
 - **[React](https://reactjs.org/)**
