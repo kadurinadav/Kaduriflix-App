@@ -105,8 +105,7 @@ Install lateset version of Node.js
 
 ![](./images/signup.png)
 
-1. Go to Sign Up page.
-   - From the Sign In page, click the 'Sign up now' link below 'Sign In' button.
+1. Go to Sign Up page through the Sign In page - click the 'Sign up now' link below 'Sign In' button.
 2. Input the necessary fields.
    - Both email and phone number has to be unique.
 3. You'll be redirected to the login page. Enter your newly created credentials.
@@ -116,8 +115,8 @@ Install lateset version of Node.js
 ![](./images/signin.png)
 
 1. Go to Sign In page.
-   - if you just started the app you will already be in the Sign in page.
-   - From Sign Up page, click the 'Sign in now' link below 'Sign Up' button.
+   - if you just started the app or just finished to Sign Up you will already be in the Sign in page.
+   - From Sign Up page, you can click the 'Sign in now' link below 'Sign Up' button.
 2. Input the necessary fields and proceed.
 
 **Searching for a movie**
@@ -127,7 +126,7 @@ Install lateset version of Node.js
 1. Click the search input on the navabr.
 2. Input your search term and press the " enter.
 3. To show all shows again, clear the search input and click the "Search" button.
-4. you will be directed to search Page and all the results will be displayed.
+4. You will be directed to search Page and all the results will be displayed.
 
 **Play Trailer for a movie**
 
