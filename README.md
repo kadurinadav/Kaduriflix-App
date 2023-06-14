@@ -43,6 +43,12 @@ Install latest version of npm
   npm install npm@latest -g
   ```
 
+Install lateset version of Node.js
+
+  ```sh
+  npm install -g node
+  ```
+
 ### Installation
 
 1. Clone the project
