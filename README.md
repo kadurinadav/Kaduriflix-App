@@ -29,7 +29,7 @@ This Project is my implementation of Netflix app. On that app, you can create a 
 
 ### Built With
 
-- **[React](https://reactjs.org/)**
+- **[React.js](https://reactjs.org/)**
 - **[Node.js](https://nodejs.org/en/)**
 - **[MongoDB](https://www.mongodb.com/)**
 
